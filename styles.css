@@ -1,4 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 ::selection {
     color: #fff;
@@ -7,7 +9,20 @@
 
 body{
     color: #1f1f1f;
-    font-family: SF UI Display;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  color: #1f1f1f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 160%;
+}
+
+
+.none{
+  display: none;
 }
 
 /* Styles */
@@ -17,9 +32,11 @@ body{
 }
 
 .navbar-brand{
-    font-family: New York Extra Large;
+  font-family: 'DM Serif Display', serif;
     font-size: 30px !important;
-    color: #FD665E !important;
+    background: -webkit-linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-item{
@@ -27,7 +44,7 @@ body{
 }
 
 h2 {
-    font-family: New York Extra Large;
+  font-family: 'DM Serif Display', serif;
     font-size: 48px;
     line-height: 124%;
     margin-bottom: 50px;
@@ -38,7 +55,7 @@ h2 {
 }
 
 .btn {
-    background: #FD665E;
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
     color: #fff;
     align-self: center;
     font-family: SF UI Display;
@@ -49,7 +66,7 @@ h2 {
 }
 
 .btn:hover{
-  background: #ff554c !important;
+  background-image: linear-gradient(-20deg, #ff4a62 0%, #fd8c28 100%) !important;
 }
 
 .btn-center{
@@ -57,15 +74,21 @@ h2 {
 }
 
 .red-span {
-    color: #FD665E;
+    background: -webkit-linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-link.active{
-    color: #FD665E !important;
+  background: -webkit-linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-link:hover{
-    color: #FD665E !important;
+  background: -webkit-linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-item{
@@ -80,21 +103,13 @@ h2 {
   margin: 30px;
 }
 
-p {
-    font-family: SF UI Display;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 160%;
-}
-
 h1, h2{
-    font-family: New York Extra Large;
+  font-family: 'DM Serif Display', serif;
 }
 
 h1 {
-    font-family: New York Extra Large;
+  font-family: 'DM Serif Display', serif;
     font-size: 97px;
-    text-transform: capitalize;
     line-height: 100px;
     margin: 65px 0 50px 0;
     width: 60%;
