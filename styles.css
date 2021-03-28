@@ -204,6 +204,16 @@ h1 {
 
 @media (max-width: 768px){
 
+  h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 10px;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+
   .quality{
     flex-direction: column;
   }
@@ -218,7 +228,7 @@ h1 {
   }
 
   #slider2 p:first-child{
-    font-size: 26px;
+    font-size: 16px;
     margin-left: 0;
     max-width: 100%;
     margin-bottom: 10px !important;
@@ -227,6 +237,10 @@ h1 {
   .btn-center-tab{
     margin: 0 auto;
   }
+
+  .section{
+    margin-bottom: 50px !important;
+}
 }
 
 .section{
