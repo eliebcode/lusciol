@@ -20650,9 +20650,7 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
 }
-.navbar-marketing .navbar-brand img {
-  height: 1rem;
-}
+
 .navbar-marketing .navbar-brand svg {
   height: 1rem;
   fill: currentColor;

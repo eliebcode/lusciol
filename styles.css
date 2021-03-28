@@ -20,6 +20,11 @@ p{
   line-height: 160%;
 }
 
+.logo{
+  width: 150px;
+  height: 80px;
+  object-fit: contain;
+}
 
 .none{
   display: none;
